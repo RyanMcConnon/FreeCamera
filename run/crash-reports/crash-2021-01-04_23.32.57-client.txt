@@ -6,7 +6,7 @@ Description: Unexpected error
 
 java.lang.NullPointerException: Unexpected error
 	at net.minecraft.entity.player.ServerPlayerEntity.lookAt(ServerPlayerEntity.java:1136) ~[forge-1.16.4-35.1.13_mapped_snapshot_20201028-1.16.3-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
-	at com.ryanpm96.isometriccamera.event.ClientEventHandler.onCameraSetup(ClientEventHandler.java:81) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.ryanpm96.freecamera.event.ClientEventHandler.onCameraSetup(ClientEventHandler.java:81) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-3.0.5-service.jar:?] {}
 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-3.0.5-service.jar:?] {}
 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297) ~[eventbus-3.0.5-service.jar:?] {}
@@ -36,7 +36,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Thread: Render thread
 Stacktrace:
 	at net.minecraft.entity.player.ServerPlayerEntity.lookAt(ServerPlayerEntity.java:1136) ~[forge-1.16.4-35.1.13_mapped_snapshot_20201028-1.16.3-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
-	at com.ryanpm96.isometriccamera.event.ClientEventHandler.onCameraSetup(ClientEventHandler.java:81) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.ryanpm96.freecamera.event.ClientEventHandler.onCameraSetup(ClientEventHandler.java:81) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-3.0.5-service.jar:?] {}
 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-3.0.5-service.jar:?] {}
 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297) ~[eventbus-3.0.5-service.jar:?] {}

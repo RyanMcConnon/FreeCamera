@@ -6,7 +6,7 @@ Description: Unexpected error
 
 java.lang.UnsupportedOperationException: Attempted to call Event#setCanceled() on a non-cancelable event of type: net.minecraftforge.client.event.RenderGameOverlayEvent.Post
 	at net.minecraftforge.eventbus.api.Event.setCanceled(Event.java:95) ~[eventbus-3.0.5-service.jar:?] {}
-	at com.ryanpm96.isometriccamera.event.ClientEventHandler.onRenderCrosshair(ClientEventHandler.java:122) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.ryanpm96.freecamera.event.ClientEventHandler.onRenderCrosshair(ClientEventHandler.java:122) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-3.0.5-service.jar:?] {}
 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-3.0.5-service.jar:?] {}
 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297) ~[eventbus-3.0.5-service.jar:?] {}
@@ -37,7 +37,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Thread: Render thread
 Stacktrace:
 	at net.minecraftforge.eventbus.api.Event.setCanceled(Event.java:95) ~[eventbus-3.0.5-service.jar:?] {}
-	at com.ryanpm96.isometriccamera.event.ClientEventHandler.onRenderCrosshair(ClientEventHandler.java:122) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.ryanpm96.freecamera.event.ClientEventHandler.onRenderCrosshair(ClientEventHandler.java:122) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-3.0.5-service.jar:?] {}
 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-3.0.5-service.jar:?] {}
 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297) ~[eventbus-3.0.5-service.jar:?] {}
