@@ -1,0 +1,475 @@
+[14Jan2021 16:27:40.490] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 35.1.13, --version, MOD_DEV, --assetIndex, 1.16, --assetsDir, C:\Users\ryanm\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[14Jan2021 16:27:40.496] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.6+85+master.325de55 starting: java version 1.8.0_271 by Oracle Corporation
+[14Jan2021 16:27:41.077] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[14Jan2021 16:27:41.145] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/ryanm/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.2/1cf212283d26f706fd3074318870bebd14d2a9ed/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[14Jan2021 16:27:42.812] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\ryanm\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[14Jan2021 16:27:51.185] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Jan2021 16:27:51.701] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:97) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.1.28.jar:?]
+	at net.minecraft.client.Minecraft.func_244735_a(Minecraft.java:556) ~[forge-1.16.4-35.1.13_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:388) ~[forge-1.16.4-35.1.13_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:149) ~[forge-1.16.4-35.1.13_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.13_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.13_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+[14Jan2021 16:27:51.710] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[14Jan2021 16:27:52.013] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[14Jan2021 16:27:53.199] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 35.1.13, for MC 1.16.4 with MCP 20201102.104115
+[14Jan2021 16:27:53.199] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v35.1.13 Initialized
+[14Jan2021 16:27:56.915] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[14Jan2021 16:27:57.144] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[14Jan2021 16:27:57.489] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [isometriccamera] Starting version check at http://myurl.me/
+[14Jan2021 16:27:57.745] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_271]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945) ~[?:1.8.0_271]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_271]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:171) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_271]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [forge:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_271]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_271]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:155) ~[forge:?]
+	... 3 more
+[14Jan2021 16:27:57.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14Jan2021 16:27:58.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 35.1.13 Target: 35.1.36
+[14Jan2021 16:28:13.048] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[14Jan2021 16:28:13.049] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[14Jan2021 16:28:13.759] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[14Jan2021 16:28:14.017] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[14Jan2021 16:28:14.019] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14Jan2021 16:28:14.044] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14Jan2021 16:28:14.055] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14Jan2021 16:28:14.059] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14Jan2021 16:28:14.064] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14Jan2021 16:28:15.125] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[14Jan2021 16:28:15.139] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14Jan2021 16:28:15.142] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14Jan2021 16:28:15.684] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[14Jan2021 16:28:40.353] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Jan2021 16:28:40.354] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Jan2021 16:28:40.355] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Jan2021 16:28:40.356] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Jan2021 16:28:40.358] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Jan2021 16:28:40.365] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.16.4-35.1.13_mapped_snapshot_20201028-1.16.3-recomp.jar
+[14Jan2021 16:28:42.042] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[14Jan2021 16:28:43.482] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[14Jan2021 16:28:43.819] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[14Jan2021 16:28:45.630] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Jan2021 16:28:45.705] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.4
+[14Jan2021 16:28:45.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Jan2021 16:28:46.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Jan2021 16:28:49.509] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Jan2021 16:28:49.509] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Jan2021 16:28:49.509] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Jan2021 16:28:49.509] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Jan2021 16:28:49.509] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Jan2021 16:28:49.510] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Jan2021 16:28:49.510] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Jan2021 16:28:49.925] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Jan2021 16:28:50.325] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[14Jan2021 16:28:50.708] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4400 ms
+[14Jan2021 16:28:51.662] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[14Jan2021 16:28:54.317] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[14Jan2021 16:28:54.484] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@48721c3b
+[14Jan2021 16:28:54.538] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:43694a0b] logged in with entity id 117 at (193.96771164096657, 70.0, -3.9406985802439403)
+[14Jan2021 16:28:54.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[14Jan2021 16:28:55.294] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Jan2021 16:28:55.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Jan2021 16:28:56.089] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 15 advancements
+[14Jan2021 16:28:57.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Jan2021 16:28:57.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Jan2021 16:28:57.381] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2792ms or 55 ticks behind
+[14Jan2021 16:29:01.280] [Render thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@79e33802
+[14Jan2021 16:29:20.978] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4390ms or 87 ticks behind
+[14Jan2021 16:30:01.090] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Jan2021 16:30:01.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Jan2021 16:30:01.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Jan2021 16:30:01.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Jan2021 16:30:17.789] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Jan2021 16:30:17.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Jan2021 16:30:17.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Jan2021 16:30:17.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Jan2021 16:30:19.488] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Jan2021 16:30:19.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Jan2021 16:30:19.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Jan2021 16:30:19.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Jan2021 16:30:39.225] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.0494763
+[14Jan2021 16:30:39.226] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.0072177467
+[14Jan2021 16:30:39.256] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.0494763
+[14Jan2021 16:30:39.257] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.0072177467
+[14Jan2021 16:30:39.289] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.0494763
+[14Jan2021 16:30:39.290] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.0072177467
+[14Jan2021 16:30:39.320] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.0494763
+[14Jan2021 16:30:39.320] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.0072177467
+[14Jan2021 16:30:39.359] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.0494763
+[14Jan2021 16:30:39.359] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.0072177467
+[14Jan2021 16:30:39.392] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.0494763
+[14Jan2021 16:30:39.393] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.0072177467
+[14Jan2021 16:30:39.624] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.0494763
+[14Jan2021 16:30:39.624] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.0072177467
+[14Jan2021 16:30:39.724] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.11757981
+[14Jan2021 16:30:39.725] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:1.4987245
+[14Jan2021 16:30:39.762] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.11862774
+[14Jan2021 16:30:39.763] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:1.8522763
+[14Jan2021 16:30:39.800] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.11967567
+[14Jan2021 16:30:39.800] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.2058282
+[14Jan2021 16:30:39.847] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.18568332
+[14Jan2021 16:30:39.848] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.0046666
+[14Jan2021 16:30:39.895] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.2939495
+[14Jan2021 16:30:39.896] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.7468112
+[14Jan2021 16:30:39.946] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.36612698
+[14Jan2021 16:30:39.946] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.2415743
+[14Jan2021 16:30:39.995] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.38056248
+[14Jan2021 16:30:39.996] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.340527
+[14Jan2021 16:30:40.020] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.38056248
+[14Jan2021 16:30:40.021] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.340527
+[14Jan2021 16:30:40.043] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.38056248
+[14Jan2021 16:30:40.043] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.340527
+[14Jan2021 16:30:40.071] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.38778022
+[14Jan2021 16:30:40.072] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.390003
+[14Jan2021 16:30:40.110] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.40943345
+[14Jan2021 16:30:40.110] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.538432
+[14Jan2021 16:30:40.144] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.48056298
+[14Jan2021 16:30:40.145] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.679643
+[14Jan2021 16:30:40.172] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.5589103
+[14Jan2021 16:30:40.172] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.8703303
+[14Jan2021 16:30:40.194] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.5733458
+[14Jan2021 16:30:40.195] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.969283
+[14Jan2021 16:30:40.221] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.58778125
+[14Jan2021 16:30:40.221] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.068236
+[14Jan2021 16:30:40.243] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.594999
+[14Jan2021 16:30:40.243] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.117712
+[14Jan2021 16:30:40.271] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.61665225
+[14Jan2021 16:30:40.271] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.266141
+[14Jan2021 16:30:40.295] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.62387
+[14Jan2021 16:30:40.295] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.315617
+[14Jan2021 16:30:40.355] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.51152986
+[14Jan2021 16:30:40.355] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.584652
+[14Jan2021 16:30:40.395] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.47031924
+[14Jan2021 16:30:40.395] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.994898
+[14Jan2021 16:30:40.422] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.44354412
+[14Jan2021 16:30:40.423] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:6.504096
+[14Jan2021 16:30:40.458] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.35902703
+[14Jan2021 16:30:40.458] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:6.617484
+[14Jan2021 16:30:40.495] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.38068026
+[14Jan2021 16:30:40.495] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:6.765913
+[14Jan2021 16:30:40.545] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.39511576
+[14Jan2021 16:30:40.545] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:6.864866
+[14Jan2021 16:30:40.593] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.3672927
+[14Jan2021 16:30:40.594] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.0205126
+[14Jan2021 16:30:40.656] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.3817282
+[14Jan2021 16:30:40.656] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.1194654
+[14Jan2021 16:30:40.698] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.38894594
+[14Jan2021 16:30:40.699] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.1689415
+[14Jan2021 16:30:40.746] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.38894594
+[14Jan2021 16:30:40.746] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.1689415
+[14Jan2021 16:30:40.822] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.39616367
+[14Jan2021 16:30:40.824] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.2184176
+[14Jan2021 16:30:40.871] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.39616367
+[14Jan2021 16:30:40.873] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.2184176
+[14Jan2021 16:30:40.923] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.38894594
+[14Jan2021 16:30:40.923] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.1689415
+[14Jan2021 16:30:40.964] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.3724146
+[14Jan2021 16:30:40.965] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:6.3628855
+[14Jan2021 16:30:41.016] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.4125773
+[14Jan2021 16:30:41.016] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.5990877
+[14Jan2021 16:30:41.065] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.5516926
+[14Jan2021 16:30:41.066] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.820854
+[14Jan2021 16:30:41.119] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.6062908
+[14Jan2021 16:30:41.120] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.156009
+[14Jan2021 16:30:41.167] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.5547187
+[14Jan2021 16:30:41.168] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.456123
+[14Jan2021 16:30:41.218] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.5515749
+[14Jan2021 16:30:41.219] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.3954678
+[14Jan2021 16:30:41.273] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.7112955
+[14Jan2021 16:30:41.273] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:1.4121115
+[14Jan2021 16:30:41.315] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.90710485
+[14Jan2021 16:30:41.315] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.67613685
+[14Jan2021 16:30:41.366] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.96170306
+[14Jan2021 16:30:41.367] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.011291724
+[14Jan2021 16:30:41.431] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.9451718
+[14Jan2021 16:30:41.432] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.7947646
+[14Jan2021 16:30:41.478] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.90908307
+[14Jan2021 16:30:41.479] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-1.0421461
+[14Jan2021 16:30:41.548] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.84412336
+[14Jan2021 16:30:41.549] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-1.4874328
+[14Jan2021 16:30:41.627] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.6358566
+[14Jan2021 16:30:41.628] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-2.5686936
+[14Jan2021 16:30:41.716] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.37089586
+[14Jan2021 16:30:41.716] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-3.692213
+[14Jan2021 16:30:41.779] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.20698355
+[14Jan2021 16:30:41.780] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.123064
+[14Jan2021 16:30:41.843] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.07915997
+[14Jan2021 16:30:41.843] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.306534
+[14Jan2021 16:30:41.902] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.04866362
+[14Jan2021 16:30:41.902] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.4900036
+[14Jan2021 16:30:41.947] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.1764872
+[14Jan2021 16:30:41.947] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.6734734
+[14Jan2021 16:30:41.994] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.26205224
+[14Jan2021 16:30:41.994] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.913637
+[14Jan2021 16:30:42.048] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.32596403
+[14Jan2021 16:30:42.048] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.005372
+[14Jan2021 16:30:42.093] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.32596403
+[14Jan2021 16:30:42.094] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.005372
+[14Jan2021 16:30:42.832] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:42.833] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:42.853] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:42.854] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:42.871] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:42.871] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:42.891] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:42.891] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:42.920] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:42.921] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:42.942] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:42.942] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:42.971] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:42.971] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:42.991] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:42.991] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:43.020] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:43.020] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:43.041] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.113388374
+[14Jan2021 16:30:43.041] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.084516846
+[14Jan2021 16:30:43.070] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.10000081
+[14Jan2021 16:30:43.070] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.3391161
+[14Jan2021 16:30:43.092] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.0793955
+[14Jan2021 16:30:43.093] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.54423904
+[14Jan2021 16:30:43.121] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.0030257443
+[14Jan2021 16:30:43.121] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:1.3647308
+[14Jan2021 16:30:43.157] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.008147636
+[14Jan2021 16:30:43.157] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.0223582
+[14Jan2021 16:30:43.192] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.034922764
+[14Jan2021 16:30:43.192] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.5315566
+[14Jan2021 16:30:43.221] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.061697885
+[14Jan2021 16:30:43.221] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.040755
+[14Jan2021 16:30:43.257] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.14516707
+[14Jan2021 16:30:43.257] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.507695
+[14Jan2021 16:30:43.294] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.15133688
+[14Jan2021 16:30:43.295] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.8117704
+[14Jan2021 16:30:43.322] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.11524814
+[14Jan2021 16:30:43.323] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.059152
+[14Jan2021 16:30:43.358] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.06472392
+[14Jan2021 16:30:43.358] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.405486
+[14Jan2021 16:30:43.393] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.17753568
+[14Jan2021 16:30:43.393] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.0270247
+[14Jan2021 16:30:43.420] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.659959
+[14Jan2021 16:30:43.421] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.5629983
+[14Jan2021 16:30:43.458] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:1.3825461
+[14Jan2021 16:30:43.459] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:6.013407
+[14Jan2021 16:30:43.491] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:2.7205021
+[14Jan2021 16:30:43.492] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:6.5256314
+[14Jan2021 16:30:43.521] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:3.9100292
+[14Jan2021 16:30:43.521] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.059509
+[14Jan2021 16:30:43.558] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:4.4408813
+[14Jan2021 16:30:43.558] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.234713
+[14Jan2021 16:30:43.592] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:4.6037455
+[14Jan2021 16:30:43.592] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.3120127
+[14Jan2021 16:30:43.620] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:4.8016505
+[14Jan2021 16:30:43.621] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.2831416
+[14Jan2021 16:30:43.643] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:4.9923377
+[14Jan2021 16:30:43.643] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.2047944
+[14Jan2021 16:30:43.670] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:5.423189
+[14Jan2021 16:30:43.671] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:7.040882
+[14Jan2021 16:30:43.693] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:5.7973466
+[14Jan2021 16:30:43.693] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:6.834711
+[14Jan2021 16:30:43.743] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:6.630178
+[14Jan2021 16:30:43.744] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:6.308981
+[14Jan2021 16:30:43.771] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:7.2228456
+[14Jan2021 16:30:43.771] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.8688164
+[14Jan2021 16:30:43.794] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:7.4836144
+[14Jan2021 16:30:43.794] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.5781283
+[14Jan2021 16:30:43.821] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:8.061847
+[14Jan2021 16:30:43.821] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:5.039011
+[14Jan2021 16:30:43.845] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:8.45661
+[14Jan2021 16:30:43.846] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.6277175
+[14Jan2021 16:30:43.871] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:8.886414
+[14Jan2021 16:30:43.871] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.1102533
+[14Jan2021 16:30:43.895] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:9.062666
+[14Jan2021 16:30:43.895] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.9329534
+[14Jan2021 16:30:43.920] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:9.252305
+[14Jan2021 16:30:43.921] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.5010543
+[14Jan2021 16:30:43.944] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:9.470816
+[14Jan2021 16:30:43.944] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.2670603
+[14Jan2021 16:30:43.971] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:9.660455
+[14Jan2021 16:30:43.971] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.8351612
+[14Jan2021 16:30:43.993] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:9.723318
+[14Jan2021 16:30:43.995] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.5733442
+[14Jan2021 16:30:44.021] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:9.891304
+[14Jan2021 16:30:44.021] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:1.9930162
+[14Jan2021 16:30:44.060] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:10.009814
+[14Jan2021 16:30:44.060] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:1.419906
+[14Jan2021 16:30:44.095] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:10.170583
+[14Jan2021 16:30:44.095] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.7901017
+[14Jan2021 16:30:44.121] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:10.289093
+[14Jan2021 16:30:44.121] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.21699141
+[14Jan2021 16:30:44.160] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:10.407603
+[14Jan2021 16:30:44.160] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.35611886
+[14Jan2021 16:30:44.192] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:10.419943
+[14Jan2021 16:30:44.192] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.96426994
+[14Jan2021 16:30:44.221] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:10.410629
+[14Jan2021 16:30:44.221] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-1.7208499
+[14Jan2021 16:30:44.261] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:10.373493
+[14Jan2021 16:30:44.262] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-2.3217833
+[14Jan2021 16:30:44.294] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:10.301315
+[14Jan2021 16:30:44.296] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-2.8165462
+[14Jan2021 16:30:44.322] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:10.03845
+[14Jan2021 16:30:44.322] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-3.232962
+[14Jan2021 16:30:44.345] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:9.903409
+[14Jan2021 16:30:44.345] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-3.4659078
+[14Jan2021 16:30:44.371] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:9.640544
+[14Jan2021 16:30:44.372] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-3.8823235
+[14Jan2021 16:30:44.414] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:9.22925
+[14Jan2021 16:30:44.414] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.277086
+[14Jan2021 16:30:44.447] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:8.492227
+[14Jan2021 16:30:44.448] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.826447
+[14Jan2021 16:30:44.499] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:7.7768574
+[14Jan2021 16:30:44.499] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.2273793
+[14Jan2021 16:30:44.545] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:7.1398354
+[14Jan2021 16:30:44.545] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.437624
+[14Jan2021 16:30:44.571] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:6.4605546
+[14Jan2021 16:30:44.571] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.591175
+[14Jan2021 16:30:44.597] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:6.1987376
+[14Jan2021 16:30:44.598] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.654039
+[14Jan2021 16:30:44.622] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:5.576151
+[14Jan2021 16:30:44.622] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.765331
+[14Jan2021 16:30:44.671] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:4.953564
+[14Jan2021 16:30:44.672] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.8766227
+[14Jan2021 16:30:44.715] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:3.913514
+[14Jan2021 16:30:44.715] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-6.078602
+[14Jan2021 16:30:44.766] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:3.1280627
+[14Jan2021 16:30:44.766] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-6.2671933
+[14Jan2021 16:30:44.815] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:2.1374888
+[14Jan2021 16:30:44.815] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-6.47639
+[14Jan2021 16:30:44.850] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:1.6849843
+[14Jan2021 16:30:44.851] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-6.4609065
+[14Jan2021 16:30:44.897] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.82945174
+[14Jan2021 16:30:44.897] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-6.4371576
+[14Jan2021 16:30:44.948] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.3157209
+[14Jan2021 16:30:44.949] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-6.320626
+[14Jan2021 16:30:44.998] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-1.4598455
+[14Jan2021 16:30:45.000] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.850542
+[14Jan2021 16:30:45.045] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-2.7802222
+[14Jan2021 16:30:45.046] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-5.2031584
+[14Jan2021 16:30:45.096] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-3.7687001
+[14Jan2021 16:30:45.097] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.7052517
+[14Jan2021 16:30:45.146] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-4.7571783
+[14Jan2021 16:30:45.147] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.207345
+[14Jan2021 16:30:45.196] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-5.8579965
+[14Jan2021 16:30:45.197] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-3.4404035
+[14Jan2021 16:30:45.221] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-6.50014
+[14Jan2021 16:30:45.221] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-2.993021
+[14Jan2021 16:30:45.248] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-6.916556
+[14Jan2021 16:30:45.248] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-2.730156
+[14Jan2021 16:30:45.270] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-7.3329716
+[14Jan2021 16:30:45.271] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-2.4672909
+[14Jan2021 16:30:45.294] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-7.6576524
+[14Jan2021 16:30:45.294] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-2.2683377
+[14Jan2021 16:30:45.321] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-7.868945
+[14Jan2021 16:30:45.321] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-1.9848676
+[14Jan2021 16:30:45.360] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-8.030762
+[14Jan2021 16:30:45.360] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-1.7086152
+[14Jan2021 16:30:45.396] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-8.213183
+[14Jan2021 16:30:45.396] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-1.2272397
+[14Jan2021 16:30:45.421] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-8.311089
+[14Jan2021 16:30:45.421] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.85925233
+[14Jan2021 16:30:45.462] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-8.310041
+[14Jan2021 16:30:45.462] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.50570047
+[14Jan2021 16:30:45.495] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-8.294559
+[14Jan2021 16:30:45.496] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-0.05319604
+[14Jan2021 16:30:45.521] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-8.144033
+[14Jan2021 16:30:45.521] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.6322544
+[14Jan2021 16:30:45.546] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-8.001775
+[14Jan2021 16:30:45.546] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.9146767
+[14Jan2021 16:30:45.598] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-7.6956034
+[14Jan2021 16:30:45.598] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:1.6279502
+[14Jan2021 16:30:45.646] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-7.2337856
+[14Jan2021 16:30:45.646] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.3690467
+[14Jan2021 16:30:45.693] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-6.9781384
+[14Jan2021 16:30:45.694] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.735986
+[14Jan2021 16:30:45.721] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-6.7936206
+[14Jan2021 16:30:45.722] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.9617143
+[14Jan2021 16:30:45.763] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-6.3606734
+[14Jan2021 16:30:45.764] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.5049057
+[14Jan2021 16:30:45.797] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-5.9215565
+[14Jan2021 16:30:45.797] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.7440217
+[14Jan2021 16:30:45.846] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-5.0010643
+[14Jan2021 16:30:45.847] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.1655593
+[14Jan2021 16:30:45.894] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-4.1022253
+[14Jan2021 16:30:45.895] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.4386683
+[14Jan2021 16:30:45.921] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-3.5713737
+[14Jan2021 16:30:45.922] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.6138725
+[14Jan2021 16:30:45.961] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-3.1044338
+[14Jan2021 16:30:45.962] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.697342
+[14Jan2021 16:30:45.995] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-2.5529768
+[14Jan2021 16:30:45.996] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.667423
+[14Jan2021 16:30:46.021] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-2.058214
+[14Jan2021 16:30:46.021] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.5952454
+[14Jan2021 16:30:46.061] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-1.5139747
+[14Jan2021 16:30:46.062] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.51585
+[14Jan2021 16:30:46.101] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.9419123
+[14Jan2021 16:30:46.101] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:4.280808
+[14Jan2021 16:30:46.146] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:-0.09464539
+[14Jan2021 16:30:46.146] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.8540306
+[14Jan2021 16:30:46.195] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.39185193
+[14Jan2021 16:30:46.195] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:3.378825
+[14Jan2021 16:30:46.245] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.7927842
+[14Jan2021 16:30:46.246] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.6634557
+[14Jan2021 16:30:46.272] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:0.9535527
+[14Jan2021 16:30:46.273] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:2.0336514
+[14Jan2021 16:30:46.313] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:1.1493621
+[14Jan2021 16:30:46.314] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:1.2976767
+[14Jan2021 16:30:46.350] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:1.415253
+[14Jan2021 16:30:46.350] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:0.3493613
+[14Jan2021 16:30:46.396] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:1.826429
+[14Jan2021 16:30:46.396] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-1.6812629
+[14Jan2021 16:30:46.421] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:2.1902246
+[14Jan2021 16:30:46.422] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-2.9975655
+[14Jan2021 16:30:46.466] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:2.4200268
+[14Jan2021 16:30:46.467] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.193262
+[14Jan2021 16:30:46.523] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:2.4962783
+[14Jan2021 16:30:46.523] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.709678
+[14Jan2021 16:30:46.581] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:126]: X:2.4962783
+[14Jan2021 16:30:46.581] [Render thread/INFO] [STDOUT/]: [com.ryanpm96.isometriccamera.event.ClientEventHandler:onCameraSetup:127]: Z:-4.709678
+[14Jan2021 16:30:56.939] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Jan2021 16:30:56.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Jan2021 16:30:57.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Jan2021 16:30:57.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Jan2021 16:33:30.285] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[14Jan2021 16:33:30.346] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[14Jan2021 16:33:30.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[14Jan2021 16:33:30.354] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[14Jan2021 16:33:30.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Jan2021 16:33:30.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Jan2021 16:33:30.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Jan2021 16:33:30.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Jan2021 16:33:30.596] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[14Jan2021 16:33:30.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Jan2021 16:33:30.597] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Jan2021 16:33:30.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Jan2021 16:33:30.597] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Jan2021 16:33:30.621] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[14Jan2021 16:33:30.628] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Jan2021 16:33:30.628] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
