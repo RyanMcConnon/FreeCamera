@@ -81,14 +81,14 @@ public class ClientEventHandler {
             if (camera == null) {
                 camera = FakePlayerFactory.getMinecraft(mc.getIntegratedServer().getWorld(player.world.getDimensionKey()));
                 yaw = 45.0F;
-                pitch = 35.264F; //isometric
+                pitch = 35.264F;
                 set_distance = 10.0F;
             }
             if (InitKeyBindings.RESET_CAMERA.isPressed()){
                 pan_dX = 0.0F;
                 pan_dZ = 0.0F;
                 yaw = 45.0F;
-                pitch = 35.264F; //isometric
+                pitch = 35.264F;
                 set_distance = 10.0F;
                 isPanning = false;
             }
